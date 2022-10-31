@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #eee ;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.contract{
+    float: right;
+    padding: 30px;
+}
+.contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contract a:hover{
+    color: turquoise;
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.common-hr{
+    border: 4px black solid;
+    margin:  30px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    width: 70%;
+    float: left;
+    
+}
+.education-left{
+    float: left;
+    width: 45%;
+}
+.education-right{
+    float: right;
+    width: 45%;
+}
+.education-right a{
+    text-decoration: none;
+}
+.education-right a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.education-left a{
+    text-decoration: none;
+}
+.education-left a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 30px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #11999e;
+}
+.footer p{
+    color: aliceblue;
+    margin-top: 20px;
+}
+.footer p:hover{
+    color:#11999e
+}
+
+
+
